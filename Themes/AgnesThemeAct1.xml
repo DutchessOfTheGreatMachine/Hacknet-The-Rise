@@ -1,0 +1,26 @@
+<CustomTheme>
+	<!-- AwayTooLong -->
+
+	<!-- "csec" makes the same layout -->
+	<themeLayoutName>riptide2</themeLayoutName>
+	<backgroundImagePath>Themes/Backgrounds/AgnesTheme.png</backgroundImagePath>
+
+	<defaultHighlightColor>185, 219, 255, 255</defaultHighlightColor>
+	<defaultTopBarColor>20, 20, 20</defaultTopBarColor>
+	<highlightColor>185, 219, 255, 255</highlightColor>
+	<shellColor>156, 185, 190</shellColor>
+	<shellButtonColor>159, 220, 231</shellButtonColor>
+	<moduleColorSolid>220, 222, 220, 100</moduleColorSolid>
+	<moduleColorSolidDefault>220, 222, 220, 100</moduleColorSolidDefault>
+	<moduleColorStrong>71, 71, 71, 50</moduleColorStrong>
+	<moduleColorBacking>6, 6, 6, 205</moduleColorBacking>
+	<topBarColor>20, 20, 20</topBarColor>
+	<terminalTextColor>255, 255, 255</terminalTextColor>
+	<AFX_KeyboardMiddle>220, 220, 220</AFX_KeyboardMiddle>
+	<AFX_KeyboardOuter>180, 180, 180</AFX_KeyboardOuter>
+	<AFX_WordLogo>170, 80, 80</AFX_WordLogo>
+	<AFX_Other>255, 255, 255</AFX_Other>
+	<exeModuleTopBar>20, 20, 20, 80</exeModuleTopBar>
+	<exeModuleTitleText>200, 200, 200, 0</exeModuleTitleText>
+	<displayModuleExtraLayerBackingColor>0, 0, 0, 140</displayModuleExtraLayerBackingColor>
+</CustomTheme>

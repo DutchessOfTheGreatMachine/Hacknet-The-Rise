@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="Killswitch_Gateway" type="4" icon="laptop" security="2" allowsDefaultBootModule="true">
+  <ports>22,21,25,80,443,1433</ports>
+  <portsForCrack val="6"/>
+  <portRemap>22=2170,21=791,25=86,443=489,1433=7894</portRemap>
+  <firewall solution="n3cr0n0m1c0n" additionalTime="1"/>
+  <customthemefile path="sys" name="x-server.sys" themePath="Themes/AgnesThemeAct1.xml"/>
+</Computer>
