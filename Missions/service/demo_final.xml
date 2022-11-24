@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="demo_final" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="delay" time="0.1"/>
+    </goals>
+
+    <missionStart val="3">NONE</missionStart>
+    <missionEnd>NONE</missionEnd>
+
+    <nextMission IsSilent="false">NONE</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Meivetra</sender>
+        <subject>Thanks for playing</subject>
+        <body>Hello,
+
+If you are reading this, it means that you've reached the end of the demo of The Rise!
+There's one more thing that I'd like to ask of you: sit back, and enjoy the credits on the node linked below!
+
+Thanks again,
+- Meivetra
+        </body>
+        <attachments>
+            <link comp="demo_credits_node"/>
+        </attachments>
+    </email>
+</mission>

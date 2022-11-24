@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nw_mainframe" name="Northwind Mainframe" type="0" icon="DLCServer" allowsDefaultBootModule="true">
+    <ports>21,22,25</ports>
+    <portsForCrack val="9999"/>
+    <LogoCustomConnectDisplayDaemon logo="Docs/northwind/logo.png" title="Docs/northwind/logo.png" overdrawLogo="false" buttonAlignment="left"/>
+    <file path="home/notes" name="Huntress_Read_It.txt">Hey, it’s me, Faith Morello.
+
+Setup an irc since the email’s getting too hot. Hopefully you can find this.
+The IPs 21.160.180.106, login’s alisshunt, pass is 4ll1sHunt
+Get in touch with me when you can.
+</file>
+
+<file path="repo/NorthSec" name="NorthSec.sln">#BINARY#</file>
+<file path="repo/NorthSec" name="NorthSec_Runtime.dll">#BINARY#</file>
+<file path="repo/NorthSec" name="NorthSec_Source.src">#BINARY#</file>
+
+<file path="repo/NorthEnc" name="NorthEnc.sln">#BINARY#</file>
+<file path="repo/NorthEnc" name="NorthEnc_Runtime.dll">#BINARY#</file>
+<file path="repo/NorthEnc" name="NorthEnc_Source.src">#BINARY#</file>
+
+<file path="repo/NorthProx" name="NorthProx.sln">#BINARY#</file>
+<file path="repo/NorthProx" name="NorthProx_Runtime.dll">#BINARY#</file>
+<file path="repo/NorthProx" name="NorthProx_Source.src">#BINARY#</file>
+
+<file path="repo/NorthDeny" name="NorthDeny.sln">#BINARY#</file>
+<file path="repo/NorthDeny" name="NorthDeny_Runtime.dll">#BINARY#</file>
+<file path="repo/NorthDeny" name="NorthDeny_Source.src">#BINARY#</file>
+</Computer>

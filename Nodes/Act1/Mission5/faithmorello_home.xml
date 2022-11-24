@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fl_home" name="Faith Morello Homestation" type="4" icon="laptop"  allowsDefaultBootModule="true">
+    <ports>25,22,21,80,443</ports>
+    <portsForCrack val="4"/>
+    <portRemap>25=670,22=69,21=96,80=90</portRemap>
+    <file path="sys/eOS" name="eOS_sync.exe">#BINARY#</file>
+    <file path="sys/eOS" name="eOS_connect.log">#BINARY#</file>
+    <file path="sys/eOS" name="eOS_config.json">{
+	“eOS-auth-api”: {
+		“device-imei”: 356728119109490,
+		“client-uuid”: bb784b7b-6e59-44b8-8566-687c50b92219,
+		“protocol”: “udp”,
+		“host”: “whaddaphone.eoverify.com”,
+		“port”: 3659,
+		“max-devices”: 1
+	},
+	“credential-provider”:{
+		“device-username”:”faithless”,
+		“obf-password”:”YWxwaW5l”,
+		“pass-default”:true
+	}
+}
+</file>
+
+<eosDevice name="Faith Morello’s ePhone 15 Pro Max Diona Special" id="fl_phone" icon="ePhone2" empty="false">
+    <!-- It's important to keep everything in your files organized - so let's leave some space between tags -->
+    
+    <mail username="faithless@jmail.com" pass="catsarethebestpet"/>
+    <mail username="faithmorello@psylance.com" pass="bestpetsarethecats"/>
+    
+
+</eosDevice>
+
+</Computer>

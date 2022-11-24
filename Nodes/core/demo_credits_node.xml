@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="demo_credits_node" name="The Rise Credits" type="4" icon="chip" ip="123.123.123.123" allowsDefaultBootModule="true">
+    <file path="home" name="CreditsData.txt">
+%--- Hacknet: The Rise Demo ---
+%Made in a loving memory of old days within the Hacknet's community
+
+^-- Special Thanks --
+breezoreciever
+Fayti1703
+Colamaeleon
+Undeath-XIII
+Arkhist
+danilapon
+TheWrenchFries
+Adamkriaco
+Marto
+CranberryPizza
+Maow
+Neppkun
+
+^-- Writing --
+Meivetra
+TheWrenchFries
+
+^-- Logos --
+Meivetra
+
+^-- Testing --
+Meivetra
+Fayti1703
+breezoreciever
+
+^-- Music --
+Music Selection:
+Meivetra
+
+Artists:
+
+Karl Casey - Virtual Death
+Karl Casey - Law Abiding Citizen
+Naviband - Molodost' v karmane
+
+^-- Backgrounds --
+Nexus of Abaddon
+breezoreciever
+Maow
+
+</file>
+    <CreditsDaemon Title="Hacknet: The Rise Demo" ButtonText="Finish" ConditionalActionSetToRunOnButtonPressPath="Actions/DemoCreditsActions.xml"/>
+</Computer>

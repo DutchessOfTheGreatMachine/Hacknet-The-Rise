@@ -1,0 +1,9 @@
+Errors Found. Writing report to Extensions/TheRise/report.txt
+Error Loading Mission: Extensions/TheRise/Missions\service\demo_final.xml
+
+Error loading mission Goal "filedeletion" 
+NullReferenceException - this means something referenced by an ID (probably a computer) or
+a filename (missions/scripts etc) was not found.
+ 
+Source : Hacknet  ::  System.FormatException
+

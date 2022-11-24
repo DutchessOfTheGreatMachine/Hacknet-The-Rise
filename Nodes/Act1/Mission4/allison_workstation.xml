@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="allison_work" name="Allison_Workstation" type="4" icon="laptop" allowsDefaultBootModule="true">
+    <LogoCustomConnectDisplayDaemon logo="Docs/northwind/logo.png" title="Docs/northwind/logo.png" overdrawLogo="false" buttonAlignment="left"/>
+    <ports>21,22,25,443,80</ports>
+    <portsForCrack val="3"/>
+    <adminPass pass="041xcl18"/>
+    
+    <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+    <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+    <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+</Computer>

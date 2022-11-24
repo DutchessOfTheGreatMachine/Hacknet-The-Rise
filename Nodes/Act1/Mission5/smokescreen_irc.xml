@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="smokescreen_irc" name="Smokescreen IRC" type="4" icon="chip" ip="21.160.180.106" allowsDefaultBootModule="true">
+    <account username="alisshunt" password="4ll1sHunt" type="2"/>
+    <adminPass pass="sm0k3screen"/>
+    <IRCDaemon themeColor="117,117,117" name="Smokescreen IRC" needsAuth="true">
+        <agent name="faithless" color="0,209,232"/>
+        <agent name="alisshunt" color="0,96,82"/>
+        <post user="faithless">When you're here, just I'll start figuring something out for your escape from the corp.</post>
+        <post user="alisshunt">Hey...?</post>
+        <post user="alisshunt">Anyone still reading this?</post>
+        <post user="alisshunt">Bet you're just busy</post>
+        <post user="alisshunt">FYI, I've quit, myself, did so that they wouldn't change the infrastructure prior to you getting what you need. I don't want for all of this to burn down just because of me getting the extra dollar in.
+faithless: Well done. You didn't have to quit tho, I mean, if I managed to get you the message on the mainframe, I've done my job. Luckily our last won't backfire as much as I thought…</post>
+        <post user="faithless">If you want to take a look at what I've found, I've added a memdump on here. Check it out, the admin pass is sm0k3screen.</post>
+    </IRCDaemon>
+
+    <memoryDumpFile name="northwind.md" path="home">
+        <Memory>
+            <Commands>
+                <Command>>profiledump2.exe -mp -lockedInn -rf kclayburn
+Gathering profile...
+Name: Kaylynn, Clayburn
+Age: 34
+Occupation: CTO &amp; non-executive board member, Northwind LLC
+Profile Description: I’m a DigiSec specialist with over 15 years of experience, in both hands on deck and management work. My experience helped me understand how to optimize the workflow so that both employees and management can cooperate efficiently.
+Liked pages: kBurnaby, AlissHunt, BPrince, Northwind LLC
+Join date: 07/11/2015
+Last login: 8 hours ago (08:11 GMT-7)
+Last IP: 80.78.124.85
+Connected profiles: 47
+Recently Viewed Profiles: Peter Clayburn (ClayburnCEO, brother); Colin Browlin; Jehan Sind; Karol Clayburn (non-registered, mother); Stephan Clayburn (not-registered, nephew); Brody Prince (BroPrince, colleague)
+Recently Chatted with: Peter Clayburn; Brody Prince
+</Command>
+<Command>>profiledump2.exe -gp -leakbook -all “Peter Clayburn”
+connecting to leakbook...
+login:
+password:
+login successful...
+generating data block...
+Generation complete: Check memory dumps
+
+data block:
+Peter August Corneliu Joseph Mihaly Clayburn or Peter Clayburn for short (born November 24, 1989) is a businessman leading the Clayburn Industries — A multi-billion business machine, providing any services to it’s clients.
+
+Peter inherited the reins to Clayburn Industries after Raphael Clayburn died of a heart attack in 2012. After seizing the company, Peter started restructuration that ensured his reign within the tycoon. As a result of his initial actions a supervisory board had been established and majority of Clayburn heirs have been moved into non-executive positions. With the exception of Kaylynn Clayburn, which had voluntarily left the company after Peter came to power.
+
+In 2013 Clayburn Industries established multiple subsidiary companies in the security sector. A year later, Clayburn Industries became one of the biggest firms on the market within the sector, however such an expansion didn’t come free of charge. A large scandal involving accusations of terrorist attacks on the properties of Oceanian states have came to light the following year.
+
+Currently, Clayburn industries are at the peak of their rise within the digital sector. Buying one company after another, the empire is looking to compete with the top players of the market, namely Macrosoft and EnTech
+</Command>
+            </Commands>
+            <Data>
+            </Data>
+            <Images>
+            </Images>
+        </Memory>
+    </memoryDumpFile>
+
+    <dlink target="faith_proxy"/>
+</Computer>

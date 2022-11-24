@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nw_xroads" name="Northwind Crossroads Server" type="4" icon="DLCServer" security="2" allowsDefaultBootModule="true">
+<LogoDaemon Name="Northwind Crossroads" ShowsTitle="true" TextColor="0, 220, 220, 200" LogoImagePath="Docs/northwind/logo">Northwind LLC</LogoDaemon>
+    <firewall solution="N0rt" additionalTime="0"/>
+
+<LogoCustomConnectDisplayDaemon logo="Docs/northwind/logo.png" title="Docs/northwind/logo.png" overdrawLogo="false" buttonAlignment="left"/>
+
+    <file path="home/backups" name="Project_Oblivion_evaluation.docx">Evaluation of Project Oblivion
+
+Greetings, everyone.
+
+Due to the nature of the offer, I’m fairly certain that the project folder went through about 20-30 financial and PR managers, prior to landing in our hands. They do find it an “attractive” proposal. However, after discussion with director Burnaby, we have realized the nature of this deal. It’s pretty much suicidal. Kim’s saying he has seen something like it already snapping their necks back at his old corp.
+
+For those who have missed the yesterday’s meet-up:
+“Project Oblivion” is a deal proposed by this mexican “Olvido Incorporated”. Protection of a mainframe that already has EnSec on it. And as we all know no-one has found a way to crack EnSec head-on. Only way out is social engineering and we can’t be certain that their employees aren’t idiots. Thus Burnaby and I suggest declining.
+
+-Kaylynn Clayburn, CTO
+</file>
+
+    <file path="home/backups/projects" name="Project_Eren_Summary.docx">Project Eren Summary
+
+Me and Mrs Clayburn have been trying to postpone this as much as possible. This shitshow is upon us and we can’t do anything but sit back and watch. Europol seized our investigation and our European office is closed down until further notice. This is a major setback for all of us, and I hope we all understand that the situation is nothing but negative. We’re most likely not going to recover from this, and as such some percentage will be laid-off as much as we despise it. So be ready to show your best, dear colleagues. 
+
+It’s going to be hard to say goodbye to any amount of specialists we have here, but sadly it’s company survival at stake, not our personal wealth or the productivity of the crew.
+
+Terribly sorry to have this sort of information as a result of a grand project like this. But that’s how it ends up.
+
+-Kim Burnaby, head of counterintel
+</file>
+
+<file path="home/backups/projects" name="Project_Starfight_Report.txt">Project Starfight.
+
+Who knew that someone was brewing a plane hack? 
+The fella started talking. No names tho, either too scared or too much of an egoist to say that he used assistance. Forensics will have a field-day with his devices, and counterintel with Kim are having it already. 
+
+I’m proud of your work, friends.
+
+Kaylynn out.
+</file>
+
+<file path="home/backups" name="PA_failure_KAYLYNN_PLZ_READ">Kim wants us diggin’ on Pacific Air’s soil. We don’t have contract nor anything. I’m highly against it.
+
+Mrs Clayburn, I hope we can shove his requests under the rug, because this is definitely not ending well for anyone. Please, stop him before we get in trouble. Psylance are already in ashes after touching that hornet’s nest. I don’t want this coming to our doorstep.
+
+Allison Hunt, head of forensics
+</file>
+
+<dlink target="nw_mail"/>
+<dlink target="nw_mainframe"/>
+<dlink target="kclay_work"/>
+</Computer>

@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="act1_5" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="getstring" target="catsarethebestpet"/>
+    </goals>
+
+    <missionStart val="3">NONE</missionStart>
+    <missionEnd>NONE</missionEnd>
+
+    <nextMission IsSilent="false">Missions/service/demo_final.xml</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Maximilian Gottschall</sender>
+        <subject>Last Run</subject>
+        <body>Stellar work
+
+I am truly impressed, and what’s even better, mister Burnaby’s story lines up perfectly with your findings. 
+
+Thus a new task is in order. We’re digging into this Faith Morello person. See what you can find. If you can get me her jmail address, it would be our best bet at getting her. 
+
+Considering you found that she’s the one who hacked into Northwind, I feel like you can go about finding her from there. Just take a deeper dive into it. Something is bound to be there.
+
+Out.
+</body>
+        <attachments>
+            <link comp="smokescreen_irc"/>
+            <note title="Objectives">find Faith Morello's Jmail address</note>
+        </attachments>
+    </email>
+</mission>

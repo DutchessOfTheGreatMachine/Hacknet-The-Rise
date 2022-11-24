@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="rentaride-art1" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+
+    </goals>
+
+
+
+    <nextMission IsSilent="false">NONE</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="SixTnINe">With over 40 rental stations all over the world, SixTnINe is one of the biggest car rental companies. Tourists, businessmen as well as AIDS enjoyers will benefit from truly global service. The car selection is quite wide and takes into account any preferences of the client, which allows them to choose a vehicle that perfectly fits for having an orgy in its interior. Among this vast array of vehicles are some of the best cars produced by our partners, which included but are not limited to: Claudia, FRB, Merciless, SUUS, Piccolini, Boulette
+
+Additional information is available on our website: www.6ixt9ine.com
+</posting>
+
+    <email>
+        <sender>Bit</sender>
+        <subject>Hello</subject>
+        <body>Hi, my name is Bit. And if you're reading this, then I'm already dead.</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

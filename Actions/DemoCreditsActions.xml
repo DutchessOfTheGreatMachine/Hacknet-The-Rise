@@ -1,0 +1,5 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <RunFunction FunctionName="playCustomSongImmediately:Music/naviband-molodost-v-karmane.ogg" FunctionValue="0" DelayHost="delayNode" Delay="0"/>
+    </Instantly>
+</ConditionalActions>

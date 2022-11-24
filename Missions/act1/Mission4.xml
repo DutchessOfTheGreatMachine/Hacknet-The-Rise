@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="act1_4" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="getstring" target="Faith Morello"/>
+    </goals>
+
+    <missionStart val="3">NONE</missionStart>
+    <missionEnd>NONE</missionEnd>
+
+    <nextMission IsSilent="false">Missions/act1/Mission5.xml</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Maximilian Gottschall</sender>
+        <subject>Subtle solutions</subject>
+        <body>Nice job. I’m driving to Kim as we speak.
+
+As for your new assignment, we have to get this straight. We’re looking at a certain company that we’re allegedly attacked by Psylance. Dealing with competition their own way. The victims of the attack are Northwind LLC. They were supposed to become their subsidiary after this, but now Psylance is on the brink of bankruptcy themselves, so it’s all just smoke in mirrors. 
+
+There was certainly an inside man from Psylance on the job. Find him. I need a name that I can work with. Finding their employee lists is not a problem, considering how much of an arse they’ve gotten themselves in.
+
+About insertion point, their crossroads were leaked as well. Go through it. Also, while you’re at it. Try finding tools on the go, I can’t quite get something for you at the moment, supervisor’s not certain it’s worth it.
+</body>
+        <attachments>
+            <link comp="nw_xroads"/>
+            <note title="Objectives">Find the name of the hacker responsible for Northwind Hack</note>
+        </attachments>
+    </email>
+</mission>

@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nroxy" name="Nroxy #108-131" type="4" icon="DLCServer" allowsDefaultBootModule="true">
+    <ports>21,22</ports>
+    <portsForCrack val="0"/>
+
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+    <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+</Computer>

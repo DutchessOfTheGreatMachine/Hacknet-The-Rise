@@ -1,0 +1,198 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nw_mail" name="Northwind Mail" type="4" icon="DLCServer" allowsDefaultBootModule="true">
+    <ports>21,22,25,80</ports>
+    <portsForCrack val="5"/>
+    <portRemap>21=280,80=85,25=157,22=280</portRemap>
+
+    <account username="KClayburn" password="7971DzhQrs198" type="2"/>
+    <account username="kBurnaby" password="7108p4c1f1c" type="2"/>
+    <account username="AlissHunt" password="huntisthefun" type="2"/>
+    <account username="BroPrince" password="7901b04rdl34d" type="2"/>
+    <mailServer name="Northmail" color="156,14,95" generateJunk="true">
+<!--Blank Email template
+<email recipient="" sender="" subject="">
+
+</email>
+-->
+        <!--Allison and Faith Morello discuss the attack-->
+<email recipient="AlissHunt" sender="faithless" subject="re(3): Project Smokescreen">
+Very nice.
+
+This thing is wonderful, I’ll be having a field-day with it. My truest gratitude goes to you, Alisson. Check the mainframe, I’ll leave something for you there.
+
+-faithless
+—---
+Hey,
+
+The password for the mainframe is “bm9ydGh3aW5k” without the quotation marks! Hope you find what you need down there, I’ll need to lay low, the counterintel are starting to take an interest in my department.
+
+-Hunt
+ 
+</email>
+
+<email recipient="AlissHunt" sender="faithless" subject="re(2): Project Smokescreen">
+Glad to hear from you so soon!
+
+I’ll be needing the mainframe password. Thing’s got EnSec on it, not getting past anytime soon without a key. 
+
+-faithless
+---
+Alright.
+
+Let’s go through with it. Kim’s gonna ruin the company anyway…
+What do you need, my friend?
+
+-Hunt
+
+</email>
+
+<email recipient="AlissHunt" sender="faithless" subject="re(1): Project Smokescreen">
+Hey again.
+
+Essentially, yes. We’re interested in seizing the company, just looking for someone loyal enough to get us the info on your counterintel department. Who’s topping it, how eager they’re to draw the guns, etc.
+
+-faithless
+---
+Hello,
+
+Am I understanding that the person who asked me for help with taking down Burnaby is essentially your operative? If so, you just want me to keep helping right? Please get back to me if you’re about it. I’m really eager to help.
+
+-Alisson
+
+</email>
+
+<!--Allison and Kaylynn discuss the toolkits-->      
+
+
+<email recipient="KClayburn" sender="AlissHunt" subject="re: New tools">
+Hey there!
+
+Uhh, just wipe this off the email server once you’re done, k?
+IP’s 200.160.91.88
+You know the pass
+
+-Allison
+---
+Howdy!
+
+Could you give me the ip/login data for your workstation please?
+Need it for a quick check, and don’t wanna run the request through Kim seeing your falling out recently.
+
+-Kaylynn
+
+</email>
+
+<email recipient="KClayburn" sender="AlissHunt" subject="New tools">
+Hello,
+
+A big shoutout and gratitude from our department for getting us the Memory Forensics toolkit, Mrs Clayburn! We’re truly delighted to have it with us and it’s making our life easier! 
+
+-Alisson Hunt, head of forensics
+
+</email>
+
+<!--Allison about file on the xroads-->
+
+<email recipient="KClayburn" sender="AlissHunt" subject="Kim's gig">
+Hey… 
+
+There seems to be a serious problem, I don’t want to share it on the emails, as Kim will be able to see it. Just… Check the crossroads, I’ve uploaded a new report there. It seems off, I need some consulting on it
+
+-Alisson Hunt, head of forensics
+
+</email>
+
+<!--Allison and Kim about Pacific Air-->
+
+<email recipient="AlissHunt" sender="kBurnaby" subject="re(2): A private request">
+Greetings. 
+
+Could you lend me a hand by stopping asking stupid questions? I thought that our conversation yesterday was enough to clear your mind. We will be taking Pacific Air and Psylance by storm. And don’t even try to bring it up to Brody or Kaylynn. I’m solving it all myself.
+
+-Kim
+---
+I’m concerned.
+
+Bringing in your goons in return to me asking questions is an action of a very mature man, Kim. Be proud of yourself. Just fuck off, I sent you result of the investigation. Our people carried out a whole shebang. Just stop bothering me or my employees.
+
+-Allison Hunt, head of forensics
+
+</email>
+
+<email recipient="AlissHunt" sender="kBurnaby" subject="re(1): A private request">
+Glad to hear from you too.
+
+Look, it’s just that I want to find out who fucked with the airline. I’m sure as hell that the guy we got during starfight isn’t the only one. Something of such a scale is not conducted by one period. Our old admin Yasu was an idiot, but not a blind one. So many preps can’t just go without a trace. I need to know who was in it.
+
+I wanna find out why the personnel was literally purged when the Psylance guys discovered the issues
+
+---
+What the hell is this?
+
+Showing stolen data from our competition into my nose? Have you lost your mind, Kim? We have standards. And I am not going to tolerate people working for my competitors. Not from counter-intel. You either explain me what’s 
+
+</email>
+
+<email recipient="AlissHunt" sender="kBurnaby" subject="re: A private request">
+Hello,
+
+Yes it is indeed my flash drive. However there’s nothing related to our cases at the moment. I’d just like you to study the logs of it. Who, how, when, from where. All if it. Just without official bookings and all that, I just need to check something privately.
+
+Thanks in advance, Kim.
+---
+Hey, Kim
+
+I think you left your flash drive on my desk last time you came by. Or is there something related to our projects on it?
+
+</email>
+
+<!--Kaylynn and Brody on Project Eren-->
+
+<email recipient="KClayburn" sender="BroPrince" subject="re(2): Eren risks">
+There’s no good news today.
+
+I spoke with other chairmen. If we don’t agree to this, we’re doomed. I mean we all know our sins, they do even better. So we have to go through on this. No questions asked and shit. As much as I hate to, we can’t do anything but agree.
+---
+Fucking idiots!
+
+I can’t even imagine how much of fuckwit one has to be to vote FOR breaking every single law in existence for a paycheck that might not even come. What if Europol is on the guys? What if it’s just a trap? 
+
+Fuck em all.
+
+</email>
+
+<email recipient="KClayburn" sender="BroPrince" subject="re(1): Eren risks">
+I’ve just got out of the meeting.
+
+The board thinks that if we get in and then sell it off to Europol or someone, we’ll get a fortune for this. They didn’t even listen to me. I don’t think there’s much I can do about it. Just be ready to burn the hard-drives and the papers on this. It’s a thin fucking ice.
+
+-Brody
+---
+Hey.
+
+Thanks for understanding it. I can't help but thank you for trying at least. Best of luck with it.
+
+-Kay
+
+</email>
+
+<email recipient="KClayburn" sender="BroPrince" subject="re: Eren risks">
+Hey. 
+
+I’m as concerned as you are. This is not a level of a fine or something, fucking with that stuff is what gets your offed. One thing is the law, the other are those who run it. I’ll try talking sense into the board
+
+-Brody Prince,
+CLO and Executive Chairman, Northwind LLC
+---
+
+Hello there, Brody. 
+
+I’ve read the papers on this, and the question is… Are they serious? That’s illegal, not thin ice or gray area. It’s borderline illegal. Does the board even know about the risks? 
+
+-Kaylynn Clayburn,
+CTO, Northwind LLC
+
+</email>
+
+    </mailServer>
+</Computer>

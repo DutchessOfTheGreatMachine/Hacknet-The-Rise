@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kclay_work" name="Kaylynn_Workstation" type="4" icon="DLCPC1" allowsDefaultBootModule="true">
+    <LogoCustomConnectDisplayDaemon logo="Docs/northwind/logo.png" title="Docs/northwind/logo.png" overdrawLogo="false" buttonAlignment="left"/>
+    <file path="home/notes" name="email_note.txt">login: KClayburn@northwind.com
+password: 7971DzhQrs198</file>
+    <file path="home/board" name="Kim Burnaby_Termination_Speech.txt">To the dear ladies and gentlemen, who make our board.
+
+In today's meeting I’d like to put up the voting for termination of Kim Burnaby from our company. Despite the growing results and productivity of his department, I do find his actions a direct threat for our company for numerous reasons.
+
+Firstly, mister Burnaby utilizes borderline illegal interrogation techniques when operating out in the field. We have already seen what illegal actions can cause during Project Eren, which have result in a catastrophe of previously unthinkable proportions for the company.
+
+Secondly, Kim’s obsession with getting at the back of those who caused him to lose his position in Pacific Air is a threat not only to the productivity of our departments, since he utilizes people, who are supposed to do the work on the ongoing projects, but is also a large legal and reputational risk. Messing with a foreign airline just because of the person wishes of a director is not acceptable.
+
+Thirdly and finally, his corporate ethics. As the director of counterintel, he decided that he can utilize threats and the so-called “gloves off” approach even to get his colleagues to do what he desires. So far it’s just extra work and the Pacific Air case, but considering that our company has a majority of female specialists in it, I am afraid of it escalating to something much more terrible.
+
+To summarize, all the points that I have made are implying that mister Burnaby, despite all his positive actions within the company, is no longer fit for purpose. And as such should be terminated immediately. If you wish to see proof of my statements and accusations feel free to check the data I have sent to the meeting cloud server.
+
+Thanks for your attention, dear board members!
+</file>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+</Computer>

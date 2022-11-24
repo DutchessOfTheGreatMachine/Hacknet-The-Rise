@@ -1,5 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission">
+  <!--This mission is left here for future flag debug purposes. To be deleted later-->
   <goals>
     <!-- Goals here -->
   </goals>

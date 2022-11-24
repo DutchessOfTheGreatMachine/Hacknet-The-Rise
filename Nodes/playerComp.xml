@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="Bargain of The Abyss" type="4" icon="laptop" allowsDefaultBootModule="true">
+    <ports>22,21,25,80,443,1433</ports>
+    <portsForCrack val="6"/>
+    <proxy time="2"/>
+    <firewall solution="n3cr0n0m1c0n" additionalTime="-1"/>
+
+    <customthemefile path="sys" name="x-server.sys" themePath="Themes/AgnesThemeAct1.xml"/>
+</Computer>

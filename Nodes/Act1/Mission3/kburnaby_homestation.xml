@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kim_home" name="Kim Burnaby's Homestation" type="2" icon="DLCPC1" allowsDefaultBootModule="true">
+    
+    <!--eOS Sync Filestructure do not translate!-->
+
+<file path="sys/eOS" name="eOS_sync.exe">#BINARY#</file>
+<file path="sys/eOS" name="eOS_connect.log">#BINARY#</file>
+<file path="sys/eOS" name="eOS_config.json">{
+	“eOS-auth-api”: {
+		“device-imei”: 356728111326951,
+		“client-uuid”: c43f7a9d-e6be-4e4a-80c0-8d9e2234abac,
+		“protocol”: “udp”,
+		“host”: “vorefone.eoverify.com”,
+		“port”: 3659,
+		“max-devices”: 1
+	},
+	“credential-provider”:{
+		“device-username”:”Kim”,
+		“obf-password”:”YWxwaW5l”,
+		“pass-default”:true
+	}
+}
+</file>
+
+<eosDevice name="Kim's ePad XL" id="kimepad" icon="tablet" empty="false">
+    <note>Memories of the old
+I’m not quite certain that it’ll come useful as I’m no longer involved. 
+But I’d keep it just in case.
+
+141.8.224.143
+</note>
+    
+    <!-- It's important to keep everything in your files organized - so let's leave some space between tags -->
+    
+    <mail username="kBurnaby@jmail.com" pass="p4c1f1c"/>
+</eosDevice>
+
+</Computer>

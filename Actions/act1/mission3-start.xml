@@ -1,0 +1,6 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="nroxy" TargetFolderpath="bin"/>
+        <RunFunction FunctionName="playCustomSong:Music/karl-casey-law-abiding-citizen.ogg" FunctionValue="0" DelayHost="delayNode" Delay="0"/>
+    </Instantly>
+</ConditionalActions>

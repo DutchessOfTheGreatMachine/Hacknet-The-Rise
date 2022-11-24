@@ -15,8 +15,8 @@
   <StartingActions>Actions/StartingActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
-  <Description> --- Blank Extension ---
-Edit this with your own extension info and start building!</Description>
+  <Description> --- The Rise ---
+Follow Killswitch in her corporate endeavours, meet your old partners in crime and stop a megacorp's project once again!</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction>
@@ -24,9 +24,9 @@ Edit this with your own extension info and start building!</Description>
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>True</HasIntroStartup>
   
-  <StartingTheme>Themes/ExampleTheme.xml</StartingTheme>
+  <StartingTheme>Themes/AgnesThemeAct1.xml</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
@@ -39,7 +39,7 @@ Edit this with your own extension info and start building!</Description>
   
   To Play your own songs, use the path to that song in your extension.
   For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
-  <IntroStartupSong>The_Quickening</IntroStartupSong>
+  <IntroStartupSong>Music/karl-casey-virtual-death.ogg</IntroStartupSong>
 
   <!-- Sequencer stuff. You won't need this till later.-->
   <!--

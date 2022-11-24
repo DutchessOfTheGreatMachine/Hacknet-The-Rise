@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fl_gateway" name="faithless_gateway" type="4" icon="laptop" ip="29.245.144.195" allowsDefaultBootModule="true">
+    <ports>25,22,21,80,443</ports>
+    <portsForCrack val="4"/>
+    <portRemap>25=670,22=69,21=96,80=90</portRemap>
+    
+    <file path="home/useful" name="note.txt">1 - Find a weak spot in Northwind high management - done
+2 - Utilize them to gain access to the mainframe - done
+3 - Tip the Europol on Project Eren - in progress
+4 - Profit - soon
+</file>
+
+<encryptedFile path="home/private" name="deadbull_cost_cap_cheat_agreement.dec" extension=".docx" ip="29.245.144.195" header="Packaged by Spoiler Inc.">Following the accusations of seasonal spending cap breach by Dead Bull Formula UNO Ricing (further referred to as DBFUR), the Regulation Beating Administration (further referred to as RBA) of Federation Internationale de l’Vrooom (further referred to as FIVrooom) and the DBFUR came to an agreement on enforcement of the punishment for breaching Article 69.420 of Vrooom Budget Snatch Regulations (further referred to as Great Scam). The Great Scam is issued by FIVrooom and form part of the terms and slavery conditions of participation in the FIVrooom Formula Uno World Shitstorm.
+
+The RBA recognized that DBFUR has acted cooperatively throughout the review process and has sought to provide additional information and evidence on similar violations by Scuderia Debolezza in a timely manner, which resulted in softening the liability measure. It has also become clear that DBFUR have conducted corporate espionage in order to help the RBA make the sport a more honest and well-regulated activity, which the FIVroom is proud of.
+
+The RBA considered all the circumstances and decided to offer to DBFUR a rip-off agreement (further referred to as ROA), the terms of which are set out below.
+
+Summary of ROA terms and sanctions
+
+In accordance with the findings of the RBA, DBFUR has acknowledged that the Reporting Documentation submitted by it included the following incorrectly excluded and/or adjusted costs:
+
+MS4gT3ZlcnN0YXRlZCBleGNsdWRlZCBjb3N0cyBwdXJzdWFudCB0byBBcnRpY2xlIDMuMShhKSBvZiB0aGUgR3JlYXQgU2NhbSAoY29uY2VybmluZyBjYXRlcmluZyBzZXJ2aWNlcyk7CjIuIENvc3RzIHB1cnN1YW50IHRvIEFydGljbGUgMy4xKHcpIG9mIHRoZSBHcmVhdCBTY2FtIChjb25jZXJuaW5nIGNvbnNpZGVyYXRpb24gYW5kIGFzc29jaWF0ZWQgZW1wbG95ZXKScyBzb2NpYWwgc2VjdXJpdHkgY29udHJpYnV0aW9ucyk7CjMuIENvc3RzIHB1cnN1YW50IHRvIEFydGljbGUgMy4xKGgpKGkpIG9mIHRoZSBHcmVhdCBTY2FtIChpbiByZXNwZWN0IG9mIE5vbi1GVSBBY3Rpdml0aWVzKSwgYXMgdGhvc2UgY29zdHMgaGFkIGFscmVhZHkgYmVlbiBvZmZzZXQgd2l0aGluIFRvdGFsIENvc3RzIG9mIHRoZSBSZXBvcnRpbmcgR3JvdXA7CjQuIENvc3RzIHB1cnN1YW50IHRvIEFydGljbGUgMy4xKGspIG9mIHRoZSBHcmVhdCBTY2FtIChpbiByZXNwZWN0IG9mIGJvbnVzIGFuZCBhc3NvY2lhdGVkIGVtcGxveWVyknMgc29jaWFsIHNlY3VyaXR5IGNvbnRyaWJ1dGlvbnMpOwo1LiBVbmRlcnN0YXRlbWVudCBvZiBSZWxldmFudCBDb3N0cyBpbiByZXNwZWN0IG9mIGEgZ2FpbiBvbiBkaXNwb3NhbCBvZiBmaXhlZCBhc3NldHMgYnkgZmFpbGluZyB0byBtYWtlIHRoZSBuZWNlc3NhcnkgdXB3YXJkcyBhZGp1c3RtZW50Owo2LiBDb3N0cyBwdXJzdWFudCB0byBBcnRpY2xlIDMuMShxKSBvZiB0aGUgR3JlYXQgU2NhbSAoY29uY2VybmluZyBhcHByZW50aWNlc2hpcCBsZXZpZXMpOwo3LiBDb3N0cyBwdXJzdWFudCB0byBBcnRpY2xlIDMuMShoKShpaSkoaSkgb2YgdGhlIEdyZWF0IFNjYW0gKGNvbmNlcm5pbmcgY29uc2lkZXJhdGlvbiBhbmQgYXNzb2NpYXRlZCBlbXBsb3llcpJzIHNvY2lhbCBzZWN1cml0eSBjb250cmlidXRpb25zKTsKOC4gVW5kZXJzdGF0ZW1lbnQgb2YgUmVsZXZhbnQgQ29zdHMgaW4gcmVzcGVjdCBvZiBwcm92aXNpb25zIHNldCBmb3J0aCBieSBBcnRpY2xlIDQuMShhKShpKSBvZiB0aGUgR3JlYXQgU2NhbSAoY29uY2VybmluZyB0aGUgY29zdCBvZiB1c2Ugb2YgUG93ZXIgVW5pdHMpOwo5LiBDb3N0cyBwdXJzdWFudCB0byBBcnRpY2xlIDMuMShoKSAoaSkgb2YgdGhlIEdyZWF0IFNjYW0gKGNvbmNlcm5pbmcgY29uc2lkZXJhdGlvbiBhbmQgYXNzb2NpYXRlZCBlbXBsb3llcpJzIHNvY2lhbCBzZWN1cml0eSBjb250cmlidXRpb25zKTsKMTAuIFVuZGVyc3RhdGVtZW50IG9mIFJlbGV2YW50IENvc3RzIGluIHJlc3BlY3Qgb2YgcHJvdmlzaW9ucyBzZXQgZm9ydGggYnkgQXJ0aWNsZSA0LjEoZikoaSkoQikgb2YgdGhlIEdyZWF0IFNjYW0gKGNvbmNlcm5pbmcgdXNlIG9mIGludmVudG9yaWVzKTsKMTEuIENsZXJpY2FsIGVycm9yIGluIHJlc3BlY3Qgb2YgREJGVVKScyBjYWxjdWxhdGlvbiBvZiBjZXJ0YWluIGNvc3RzIHJlLWNoYXJnZWQgdG8gaXQgYnkgRGVhZCBCdWxsIFR3aXN0aW5nIFNlbWkgQXhsZXMgUGVyZm9ybWFuY2UgTFREOwoxMi4gQ2VydGFpbiB0cmF2ZWwgY29zdHMgcHVyc3VhbnQgdG8gQXJ0aWNsZSAzLjEocikgb2YgdGhlIEdyZWF0IFNjYW07CjEzLiBDb3N0cyBvZiBtYWludGVuYW5jZSBwdXJzdWFudCB0byBBcnRpY2xlIDMuMShpKSBvZiB0aGUgR3JlYXQgU2NhbS4K
+</encryptedFile>
+
+
+<dlink target="fl_home"/>
+</Computer>

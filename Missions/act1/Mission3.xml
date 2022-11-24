@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="act1_3" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="getstring" target="141.8.224.143"/>
+    </goals>
+
+    <missionStart val="3">loadConditionalActions:Actions/act1/mission3-start.xml</missionStart>
+    
+
+    <nextMission IsSilent="false">Missions/act1/Mission4.xml</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Maximilian Gottschall</sender>
+        <subject>A little favor?</subject>
+        <body>Awesome result. They’re getting busy from what I hear. 
+
+In the meantime, I’m looking into some dirt digging. Thus, I’ll need you to run some ePhone forensics. Check the proxy, I’ve uploaded some tools there.
+
+Our little suspect is Kim Burnaby. Ex-Pacific Air IT specialist. Was directly involved with the whole thing with the asians. I need some info on his current whereabouts, and I’d rather have an outsider on him, rather than bothering our employees with this less than legal private life intrusion.
+
+And just like last time, I’m ready to triple your standard rate on this. Hope it’s enough to sell the idea for you.
+
+Start looking from his laptop. There’s bound to be something related to Pacific Air. Likely an IP to some internal server. No need to hack in, I just need a pressure point for conversation.
+
+Los Geht’s!
+</body>
+        <attachments>
+            <note title="Objective">Find some IPs or whatever related to Pacific Air, send whatever you can find.</note>
+            <link comp="kim_home"/>
+        </attachments>
+    </email>
+</mission>

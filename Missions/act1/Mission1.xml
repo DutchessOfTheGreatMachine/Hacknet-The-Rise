@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Act1_1" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filedownload" target="nroxy" file="SSHCrack.exe" path="bin"/>
+        <goal type="filedownload" target="nroxy" file="FTPBounce.exe" path="bin"/>
+    </goals>
+
+    
+
+    <nextMission IsSilent="false">Missions/act1/Mission2.xml</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Maximilian Gottschall</sender>
+        <subject>Off the Books</subject>
+        <body>Greetings,
+
+My company once again needs some outside specialist to do some… covert work, I’ve issued a new check in your name, miss Wikstrom.
+
+We’ve been eyeing up expansion into the American market for a long time, now we have a perfect opportunity for it. A certain Psylance Cyber Security is on the brink of bankruptcy after a total failure in fulfilling their obligations to some big contractor from some asian corp.
+Thus we need someone to take a peek in their work routines, to see if we can scrap more than just a shell company for American expansion.
+
+Currently your task is simple. I need to check if you still can do wonders. 
+
+I’ve dedicated a proxy for you. Hack in, snatch all the tools I left for you. Reply when done. Out.
+
+Maximilian Gottschall,
+Assistant DigiSec Director, Norex GmbH
+</body>
+        <attachments>
+            <dlink target="nroxy"/>
+            <note title="Objectives">1. Hack the proxy
+            2. Snatch the tools
+            3. Reply when done</note>
+        </attachments>
+    </email>
+</mission>

@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rentaride" name="Rent-a-Ride" type="4" icon="OldServer" allowsDefaultBootModule="true">
+    <variableMissionListingServer name="Rent-a-Ride" iconPath="Docs/rentaride/rentaride.png" articleFolderPath="Docs/rentaride/articles" color="251,97,87" assigner="false" public="true" title="Rent-a-Ride"/>
+</Computer>

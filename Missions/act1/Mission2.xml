@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="act1_2" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filedeletion" target="rentaride" file="config.sys" path="MsgBoard"/>
+    </goals>
+
+
+
+    <nextMission IsSilent="false">Missions/act1/Mission3.xml</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Maximilian Gottschall</sender>
+        <subject>Competition Rollout</subject>
+        <body>Well done.
+To be blunt, I never worried about it. Just needed an assurance.
+
+Now that we’re done with this quick preparations. Project Whirlwind is a foot. Step one is dissecting their infrastructure. To do that, we will be putting certain things out of order, so that we can see, what’s prioritized and how the problems will be fixed. 
+
+First target — “Rent-a-Ride” bot. Just a car rental infoboard. They’re on a contract to keep it up, since a simple and quite useful bot is a common target for script-kiddies and other scum who just wanna flash their skills to the masses. Going to be imitating that behavior.
+
+You’re just going to bring it down. I don’t care if you touch the articles, just make it crash or what not. Attract attention, will you?
+
+Let me know when it’s done, so I know when to start the monitoring
+
+-G
+</body>
+        <attachments>
+            <note title="Objectives">1. Bring down the bot
+            2. Reply when done</note>
+        </attachments>
+    </email>
+</mission>
