@@ -32,7 +32,7 @@ Maximilian Gottschall,
 Assistant DigiSec Director, Norex GmbH
 </body>
         <attachments>
-            <dlink target="nroxy"/>
+            <link comp="nroxy"/>
             <note title="Objectives">1. Hack the proxy
             2. Snatch the tools
             3. Reply when done</note>

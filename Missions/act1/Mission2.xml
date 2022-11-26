@@ -30,6 +30,7 @@ Let me know when it’s done, so I know when to start the monitoring
 -G
 </body>
         <attachments>
+            <link comp="rentaride"/>
             <note title="Objectives">1. Bring down the bot
             2. Reply when done</note>
         </attachments>
