@@ -3,7 +3,7 @@
     <file path="home" name="CreditsData.txt">
 %--- Hacknet: The Rise Demo ---
 %Made in a loving memory of old days within the Hacknet's community
-
+Welcome to my lovely community I hope you will enjoy your time here and will like my content
 ^-- Special Thanks --
 breezoreciever
 Fayti1703
@@ -41,9 +41,12 @@ Karl Casey - Law Abiding Citizen
 Naviband - Molodost' v karmane
 
 ^-- Backgrounds --
-Nexus of Abaddon
-breezoreciever
-Maow
+
+"AK12 &amp; AN94" by Nguyen Minh Hung Phong
+Suggested by Nexus of Abaddon
+
+"Starfield 2.0" by breezoreciever &amp; Maow
+Suggested by Meivetra
 
 </file>
     <CreditsDaemon Title="Hacknet: The Rise Demo" ButtonText="Finish" ConditionalActionSetToRunOnButtonPressPath="Actions/DemoCreditsActions.xml"/>
